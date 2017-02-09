@@ -1,3 +1,14 @@
 form a {
     margin-left: 5px;
 }
+
+/* Starting state of animation */
+.fade-enter {
+    right: 100px;
+}
+
+/* End state of animacion */
+.fade-enter-active {
+    right: 0px;
+    transition: .5s ease-in all;
+}
